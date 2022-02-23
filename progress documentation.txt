@@ -1,0 +1,42 @@
+Step1. Installation
+
+While installing vue through npm, there were some dependency issues.
+Resolved by making --legacy--peer-deps true.
+
+
+Step2. Issue between Bootstrapvue and Vue3 and trying to retrieve data
+
+Found out that bootstrapvue does not work correctly under vue3.
+Approaching how to retrieve data from the api.
+xhr json parse was considered, however i found out that
+Vue has axios that can import data from url based api.
+Using axios to get the api and display the data.
+Used <table> to display data using v-for condition.
+I have successfully displayed data on Vue3 project, however in order to use bootstrap,
+I restarted the project on vue2.
+
+
+Step3. Using bootstrapvue to make pagination and search function
+
+On vue2 I have successfully imported the bootstrapvue and implemented
+<b-pagination> and <b-table> instead of <table>
+by looking up and learning from https://bootstrap-vue.org and https://vuejs.org/.
+
+Implementing search by options and display items per page by choice was
+also implemented through bootstrapvue by tweaking the sample code.
+
+
+Step4. Testing
+
+Tested searching with and without the filter on. Tested pagination.
+Checked if data showed is correct by comparing random data with the api.
+
+
+#What was hard and what I have learned from this exercise.
+
+I have learned that when I was given the list of frameworks to use, I should check version dependencies
+before installing the up-to-date version.
+Also, even though I have some experience in React, Vue was a new experience and there was a learning curve.
+I have really enjoyed finding out the differences between them.
+It has taken me approximately 3 hours to complete, however I may have been able to finish it faster
+if I was more cautious about using the right version of Vue.
